@@ -1,0 +1,171 @@
+15:671  0:628  Found BIOS RSDP at F0140
+15:671  0:000  Printing ACPI tables from RSDP F0140 ...
+15:671  0:000   F0140: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:671  0:000    (Xsdt: BFFC1188, Rsdt: BFFC10C4)
+15:671  0:000    BFFC1188: 'XSDT', 'TP-R0I', Rev: 1, Len: 252
+15:671  0:000    BFFC10C4: 'RSDT', 'TP-R0I', Rev: 1, Len: 144
+15:671  0:000    Tables in Xsdt: 27
+15:671  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:671  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:671  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:674  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:674  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:674  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:674  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:674  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:674  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:674  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:674  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:674  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:674  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:674  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:674  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:674  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:674  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:674  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+15:674  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:674  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:674  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:674  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:674  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:674  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:674  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:674  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:674  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:674  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:674  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:674  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+15:674  0:000    Tables in Rsdt: 27
+15:674  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:674  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:674  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:676  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:676  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:676  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:676  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:676  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:676  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:676  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:676  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:676  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:676  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:676  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:676  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:676  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:676  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:676  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+15:676  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:676  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:676  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:676  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:676  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:676  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:676  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:676  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:676  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:676  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:676  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:676  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+15:676  0:000  Found UEFI Acpi 2.0 RSDP at BFFFE014
+15:676  0:000  Saving ACPI tables from RSDP BFFFE014 to EFI\CLOVER\ACPI\origin ...
+15:676  0:000   BFFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:676  0:000    (Xsdt: BFFC1188, Rsdt: BFFC10C4)
+15:676  0:000    BFFC1188: 'XSDT', 'TP-R0I', Rev: 1, Len: 252
+15:676  0:000    BFFC10C4: 'RSDT', 'TP-R0I', Rev: 1, Len: 144
+15:676  0:000    Tables in Xsdt: 27
+15:676  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:676  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:676  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:679  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:679  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:679  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:679  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:679  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:679  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:679  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:679  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:679  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:679  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:679  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:679  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:679  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:679  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:679  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+15:679  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:679  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:679  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:679  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:679  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:679  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:679  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:679  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:679  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:679  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:679  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:679  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+15:679  0:000    Tables in Rsdt: 27
+15:679  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:679  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:679  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:681  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:681  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:681  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:681  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:681  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:681  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:681  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:681  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:681  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:681  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:681  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:681  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:681  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:681  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:681  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+15:681  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:681  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:681  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:681  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:681  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:681  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:681  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:681  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:681  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:681  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:681  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:681  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+15:681  0:000  Found UEFI Acpi 1.0 RSDP at BFFFE000
+15:681  0:000  Printing ACPI tables from RSDP BFFFE000 ...
+15:681  0:000   BFFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+15:682  0:000    (Rsdt: BFFC1000)
+15:682  0:000    BFFC1000: 'RSDT', 'TP-R0I', Rev: 1, Len: 140
+15:682  0:000    Tables in Rsdt: 26
+15:682  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:682  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:682  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:684  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:684  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:684  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:684  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:684  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:684  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:684  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:684  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:684  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:684  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:684  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:684  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:684  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:684  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:684  0:000    14. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:684  0:000    15. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:684  0:000    16. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:684  0:000    17. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:684  0:000    18. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:684  0:000    19. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:684  0:000    20. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:684  0:000    21. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:684  0:000    22. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:684  0:000    23. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:684  0:000    24. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:684  0:000    25. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318

@@ -1,0 +1,968 @@
+0:100  0:100  MemLog inited, TSC freq: 2713073920
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 15.10.2019,  12:6:53 (GMT)
+0:100  0:000  Starting Clover revision: 5033 on Lenovo EFI
+0:100  0:000  Build with: [Args: --x64-mcp --no-usb -D NO_GRUB_DRIVERS_EMBEDDED | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.13.6 | XCODE: 10.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,7C-A9-BA-71-B8-38-25-00)\HD(1,GPT,EDF3E6C9-3F3D-47BB-86C8-6DF6EEE39E1F,0x28,0x64000) @B98C5898
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:102  0:002  === [ Get Smbios ] ========================================
+0:102  0:000  Type 16 Index = 0
+0:102  0:000  Total Memory Slots Count = 2
+0:102  0:000  Type 17 Index = 0
+0:102  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:102  0:000  SmbiosTable.Type17->Size = 8192MB
+0:102  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:102  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:102  0:000  SmbiosTable.Type17->SerialNumber = 3648A6B9
+0:102  0:000  SmbiosTable.Type17->PartNumber = M471A1K43CB1-CRC    
+0:102  0:000  Type 17 Index = 1
+0:102  0:000  Ignoring insane frequency value 0MHz
+0:102  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:102  0:000  SmbiosTable.Type17->Size = 0MB
+0:102  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:102  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:102  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:102  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:102  0:000  Boot status=0
+0:102  0:000  Running on: '20HNA028CD' with board '20HNA028CD'
+0:102  0:000  === [ GetCPUProperties ] ==================================
+0:102  0:000  CPU Vendor = 756E6547 Model=806E9
+0:102  0:000   The CPU supported SSE4.1
+0:102  0:000  BrandString = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+0:102  0:000   The CPU supported turbo
+0:102  0:000  MSR 0x35               20004
+0:102  0:000   TSC/CCC Information Leaf:
+0:102  0:000    numerator     : 226
+0:102  0:000    denominator   : 2
+0:102  0:000   Calibrated ARTFrequency: 24009503
+0:102  0:000  MSR 0xE2 before patch 1E008008
+0:102  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:102  0:000  MSR 0xCE              0004043D_F1011B00
+0:102  0:000  corrected FLEX_RATIO = 0
+0:102  0:000  MSR 0x1B0             00000000
+0:102  0:000  FSBFrequency = 93 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:102  0:000  MaxDiv/MinDiv: 27.0/4
+0:102  0:000  Turbo: 31/31/31/31
+0:102  0:000  Features: 0xBFEBFBFF
+0:102  0:000  Threads: 4
+0:102  0:000  Cores: 2
+0:102  0:000  FSB: 100 MHz
+0:102  0:000  CPU: 2500 MHz
+0:102  0:000  TSC: 2500 MHz
+0:102  0:000  PIS: 100 MHz
+0:102  0:000  ExternalClock: 25 MHz
+0:102  0:000  === [ GetDevices ] ========================================
+0:102  0:000  PCI (00|00:00.00) : 8086 5904 class=060000
+0:102  0:000  PCI (00|00:02.00) : 8086 5916 class=030000
+0:102  0:000   - GFX: Model=Intel HD Graphics 620 (Intel)
+0:102  0:000  PCI (00|00:14.00) : 8086 9D2F class=0C0330
+0:102  0:000  PCI (00|00:14.02) : 8086 9D31 class=118000
+0:102  0:000  PCI (00|00:15.00) : 8086 9D60 class=118000
+0:102  0:000  PCI (00|00:15.01) : 8086 9D61 class=118000
+0:102  0:000  PCI (00|00:16.00) : 8086 9D3A class=078000
+0:102  0:000  PCI (00|00:1C.00) : 8086 9D10 class=060400
+0:102  0:000  PCI (00|02:00.00) : 10EC 522A class=FF0000
+0:102  0:000  PCI (00|00:1C.02) : 8086 9D12 class=060400
+0:102  0:000  PCI (00|03:00.00) : 8086 24FD class=028000
+0:102  0:000   - WIFI: Vendor=Intel
+0:102  0:000  PCI (00|00:1C.04) : 8086 9D14 class=060400
+0:102  0:000  PCI (00|04:00.00) : 144D A804 class=010802
+0:102  0:000  PCI (00|00:1F.00) : 8086 9D58 class=060100
+0:102  0:000  PCI (00|00:1F.02) : 8086 9D21 class=058000
+0:102  0:000  PCI (00|00:1F.03) : 8086 9D71 class=040300
+0:102  0:000  PCI (00|00:1F.04) : 8086 9D23 class=0C0500
+0:102  0:000  PCI (00|00:1F.06) : 8086 15D8 class=020000
+0:102  0:000   - LAN: 0 Vendor=Intel
+0:102  0:000  === [ GetDefaultSettings ] ================================
+0:103  0:000  Clover load options size = 0 bytes
+0:104  0:001  EFI\CLOVER\config.plist loaded: Success
+0:104  0:000  === [ GetListOfThemes ] ===================================
+0:105  0:000  - [00]: SimpleThemeDark
+0:105  0:000  - [01]: Catalina
+0:106  0:000  - [02]: Hackintosh_ID
+0:107  0:000  === [ Found config plists ] ===============================
+0:107  0:000  - config-origin.plist
+0:107  0:000  - config-backup.plist
+0:107  0:000  - config.plist
+0:108  0:000  === [ GetEarlyUserSettings ] ==============================
+0:108  0:000  timeout set to 5
+0:108  0:000  Custom boot CUSTOM_BOOT_APPLE (0x0)
+0:108  0:000  ForceKextsToLoad: 1 requested
+0:108  0:000   - [0]: System\Library\Extensions\IONetworkingFamily.kext
+0:108  0:000  KextsToPatch: 16 requested
+0:108  0:000   - [00]: AppleIntelBDWGraphicsFramebuffer (DVMT for AppleIntelBDWGraphicsFramebuffer (Credits DalianSky) for 10.14.x) :: MatchOS: 10.14.x :: BinPatch :: data len: 5
+0:108  0:000   - [01]: AppleIntelSKLGraphicsFramebuffer (DVMT for AppleIntelSKLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x) :: MatchOS: 10.14.x :: BinPatch :: data len: 5
+0:108  0:000   - [02]: AppleIntelKBLGraph﻿icsFramebuffer﻿﻿﻿ (DVMT for AppleIntelKBLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x) :: MatchOS: 10.14.x :: BinPatch :: data len: 5
+0:108  0:000   - [03]: AppleIntelCFLGraphicsFramebuffer (DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x) :: MatchOS: 10.14.x :: BinPatch :: data len: 5
+0:108  0:000   - [04]: AppleIntelCFLGraphicsFramebuffer (DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x) :: MatchOS: 10.14.x :: BinPatch :: data len: 5
+0:108  0:000   - [05]: AppleIntelLpssI2C (Disable AppleIntelLpssI2C (credit by Coolstar)) :: PlistPatch :: data len: 5
+0:108  0:000   - [06]: AppleIntelLpssI2CController (Disable AppleIntelLpssI2CCOntroller (credit by Coolstar)) :: PlistPatch :: data len: 5
+0:108  0:000   - [07]: IOBufferCopyController (disable IOBufferCopyController (Credit by DalianSky)) :: PlistPatch :: data len: 5
+0:108  0:000   - [08]: com.apple.driver.usb.AppleUSBXHCI (10.13.x USB Port Limit Patch) :: MatchOS: 10.13.4,10.13.5 :: BinPatch :: data len: 10
+0:108  0:000   - [09]: com.apple.driver.usb.AppleUSBXHCI (USB 10.13.6 by PMHeart) :: MatchOS: 10.13.6 :: BinPatch :: data len: 10
+0:108  0:000   - [10]: com.apple.driver.usb.AppleUSBXHCI (disable USB Port Limit Patch (PMheart) for 10.14 beta2) :: MatchOS: 10.14 :: BinPatch :: data len: 9
+0:108  0:000   - [11]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #1 10.14.x modify by DalianSky(credit ydeng)) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:108  0:000   - [12]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:108  0:000   - [13]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #3 10.14.x modify by DalianSky(credits PMheart)) :: MatchOS: 10.14,10.14.1,10.14.2,10.14.3 :: BinPatch :: data len: 4
+0:108  0:000   - [14]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #4 10.14.x modify by DalianSky(credits PMheart)) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:108  0:000   - [15]: com.apple.driver.AppleRTC (AppleRTC for 10.14.4) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:108  0:000  KernelToPatch: 5 requested
+0:108  0:000   - [00]: Disable panic kext logging on 10.13 Debug kernel :: MatchOS: 10.13 :: data len: 6
+0:108  0:000   - [01]: Disable panic kext logging on Release kernel :: MatchOS: 10.13 :: data len: 6
+0:108  0:000   - [02]: Disable panic kext logging on Release kernel :: MatchOS: 10.14,10.14.1,10.14.2,10.14.3 :: data len: 6
+0:108  0:000   - [03]: Disable panic kext logging on Release kernel :: MatchOS: 10.14.4,10.14.5,10.14.6 :: data len: 6
+0:108  0:000   - [04]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:108  0:000  Default theme: Catalina
+0:108  0:000  Hiding entries with string Preboot
+0:108  0:000  Hiding entries with string Recovery
+0:108  0:000  Hiding entries with string Windows
+0:108  0:000  ** Warning: unknown custom entry Type 'Other'
+0:108  0:000  === [ LoadDrivers ] =======================================
+0:109  0:000  Loading FSInject.efi  status=Success
+0:118  0:009  Loading NvmExpressDxe.efi  status=Success
+0:124  0:005   - driver needs connecting
+0:124  0:000  Loading VBoxExt4.efi  status=Success
+0:130  0:005   - driver needs connecting
+0:130  0:000  Loading HFSPlus.efi  status=Success
+0:135  0:005   - driver needs connecting
+0:135  0:000  Loading apfs.efi  status=Success
+0:150  0:014   - driver needs connecting
+0:150  0:000  Loading SMCHelper.efi  status=Success
+0:155  0:005  Loading VBoxHfs.efi  status=Success
+0:161  0:005   - driver needs connecting
+0:161  0:000  Loading AptioMemoryFix-64.efi  status=Success
+0:270  0:108  Loading EmuVariableUefi.efi  status=Success
+0:276  0:006  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:276  0:000  Loading DataHubDxe.efi  status=Success
+0:299  0:022  Loading PartitionDxe.efi  status=Success
+0:305  0:006   - driver needs connecting
+0:305  0:000  Loading ApfsDriverLoader.efi  status=Success
+0:310  0:005   - driver needs connecting
+0:310  0:000  Loading AudioDxe.efi  status=Success
+0:317  0:006   - driver needs connecting
+0:317  0:000  8 drivers needs connecting ...
+0:317  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:317  0:000  Partition driver loaded: 
+0:317  0:000  HFS+ driver loaded
+0:317  0:000  APFS driver loaded
+0:317  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+9:561  9:243  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+9:662  0:100  === [ InitScreen ] ========================================
+9:662  0:000  Console modes reported: 5, available modes:
+9:662  0:000   - [01]: 80x25
+9:662  0:000   - [03]: 128x40
+9:662  0:000   - [04]: 100x31
+9:662  0:000   - [05]: 170x40 (current mode)
+9:662  0:000  SetScreenResolution: 1366x768 - already set
+9:662  0:000  SetScreenResolution: 1366x768 - already set
+9:662  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,7C-A9-BA-71-B8-38-25-00)\HD(1,GPT,EDF3E6C9-3F3D-47BB-86C8-6DF6EEE39E1F,0x28,0x64000)
+9:664  0:001  === [ GetMacAddress ] =====================================
+9:664  0:000  MAC address of LAN #0= 54:E1:AD:4C:BE:A5:
+9:664  0:000  MAC address of LAN #1= 54:E1:AD:4C:BE:A5:
+9:664  0:000  MAC address of LAN #2= 54:E1:AD:4C:BE:A5:
+9:664  0:000  MAC address of LAN #3= 54:E1:AD:4C:BE:A5:
+9:664  0:000  === [ ScanSPD ] ===========================================
+9:665  0:000  Scanning SMBus [8086:9D23], mmio: 0xE134C004, ioport: 0xEFA0, hostc: 0x11
+9:684  0:019  Slot: 0 Type 26 8192MB 2400MHz Vendor=Samsung PartNo=M471A1K43CB1-CRC SerialNo=030604080A060B09
+9:685  0:001  === [ GetAcpiTablesList ] =================================
+9:685  0:000  Get Acpi Tables List from RSDT:
+9:685  0:000   - [00]: FACP  TP-R0I   len=244
+9:685  0:000   - [01]: SSDT  Tpm2Tabl len=972
+9:685  0:000   - [02]: TPM2  TP-R0I   len=52
+9:685  0:000   - [03]: UEFI  TP-R0I   len=66
+9:685  0:000   - [04]: SSDT  SaSsdt  len=12464
+9:685  0:000   - [05]: SSDT  PerfTune len=1462
+9:685  0:000   - [06]: HPET  TP-R0I   len=56
+9:685  0:000   - [07]: APIC  TP-R0I   len=188
+9:685  0:000   - [08]: MCFG  TP-R0I   len=60
+9:685  0:000   - [09]: ECDT  TP-R0I   len=83
+9:685  0:000   - [10]: SSDT  Rmv_Batt len=540
+9:685  0:000   - [11]: SSDT  ProjSsdt len=5805
+9:685  0:000   - [12]: BOOT  TP-R0I   len=40
+9:685  0:000   - [13]: BATB  TP-R0I   len=74
+9:685  0:000   - [14]: SLIC  TP-R0I   len=374
+9:685  0:000   - [15]: SSDT  CpuSsdt len=6062
+9:685  0:000   - [16]: SSDT  CtdpB len=1389
+9:685  0:000   - [17]: SSDT  UsbCTabl len=1536
+9:685  0:000   - [18]: WSMT  TP-R0I   len=40
+9:685  0:000   - [19]: SSDT  HdaDsp len=321
+9:685  0:000   - [20]: SSDT  TbtTypeC len=1221
+9:685  0:000   - [21]: DBGP  TP-R0I   len=52
+9:685  0:000   - [22]: DBG2  TP-R0I   len=84
+9:685  0:000   - [23]: MSDM  TP-R0I   len=85
+9:685  0:000   - [24]: ASF!  TP-R0I   len=160
+9:685  0:000   - [25]: FPDT  TP-R0I   len=68
+9:685  0:000   - [26]: UEFI  TP-R0I   len=318
+9:685  0:000  Calibrated TSC Frequency = 2713073920 = 2713MHz
+9:685  0:000  === [ GetUserSettings ] ===================================
+9:685  0:000  Add 1 devices:
+9:685  0:000  USB FixOwnership: yes
+9:685  0:000  Dropping 2 tables:
+9:685  0:000   - [00]: Drop table  signature="#MCF" (46434D23)
+9:685  0:000           - set table: 46434D23,                0 to drop: no
+9:685  0:000   - [01]: Drop table  signature="DMAR" (52414D44)
+9:685  0:000           - set table: 52414D44,                0 to drop: no
+9:685  0:000   - final DSDT Fix mask=00000000
+9:685  0:000  PatchesDSDT: 13 requested
+9:685  0:000   - [00]: (change OSID to XSID (to avoid match against _OSI XOSI patch)) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+9:685  0:000    patch disabled at config
+9:685  0:000   - [01]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+9:685  0:000    patch disabled at config
+9:685  0:000   - [02]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+9:685  0:000    patch disabled at config
+9:685  0:000   - [03]: (change EC0 to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+9:685  0:000   - [04]: (change H_EC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+9:685  0:000   - [05]: (change ECDV to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+9:685  0:000   - [06]: (change HDAS to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+9:685  0:000   - [07]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+9:685  0:000   - [08]: (change MEI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+9:685  0:000   - [09]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+9:685  0:000   - [10]: (change PCI0.VID to IGPU #1 (Thinkpad)) lenToFind: 8, lenToReplace: 8, Target Bridge: <null string>
+9:685  0:000   - [11]: (change PCI0.VID to IGPU #2 (Thinkpad)) lenToFind: 14, lenToReplace: 14, Target Bridge: <null string>
+9:685  0:000   - [12]: (Fix AsRock Z390 BIOS DSDT Device(RTC) bug) lenToFind: 8, lenToReplace: 8, Target Bridge: <null string>
+9:685  0:000  Using ProductName from clover: MacBookPro14,1
+9:685  0:000  BiosVersion: not set, Using BiosVersion from clover
+9:685  0:000  BiosVersion: MBP141.88Z.F000.B00.1906171613
+9:685  0:000  BiosReleaseDate: 06/17/2019
+9:685  0:000  Using EfiVersion from clover: 198.0.0.0.0
+9:685  0:000  Using FirmwareFeatures from clover: 0xFC0FE137
+9:685  0:000  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+9:685  0:000  Using PlatformFeature from clover: 0x1A
+9:686  0:000  === [ Found DSDT tables ] =================================
+9:786  0:099  === [ ScanVolumes ] =======================================
+9:786  0:000  Found 7 volumes with blockIO
+9:786  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,7C-A9-BA-71-B8-38-25-00)
+9:786  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,7C-A9-BA-71-B8-38-25-00)\HD(1,GPT,EDF3E6C9-3F3D-47BB-86C8-6DF6EEE39E1F,0x28,0x64000)
+9:786  0:000          Result of bootcode detection: bootable Windows (vista,win)
+9:786  0:000          This is SelfVolume !!
+9:786  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,7C-A9-BA-71-B8-38-25-00)\HD(2,GPT,A00B7FFD-109D-421F-9125-B241F2C53215,0x64028,0x1DC8F260)
+9:786  0:000          Result of bootcode detection: bootable unknown (legacy)
+9:786  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,7C-A9-BA-71-B8-38-25-00)\HD(2,GPT,A00B7FFD-109D-421F-9125-B241F2C53215,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,21C781CE36EF7D4F93CD2135C49DF522)
+9:786  0:000          hiding this volume
+9:786  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,7C-A9-BA-71-B8-38-25-00)\HD(2,GPT,A00B7FFD-109D-421F-9125-B241F2C53215,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA94E5470D752E4CB18BCDDDDC94DDD9)
+9:786  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,7C-A9-BA-71-B8-38-25-00)\HD(2,GPT,A00B7FFD-109D-421F-9125-B241F2C53215,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,9FEF8C1E044FE44DADF9955662025273)
+9:787  0:000          hiding this volume
+9:787  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,7C-A9-BA-71-B8-38-25-00)\HD(2,GPT,A00B7FFD-109D-421F-9125-B241F2C53215,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E4CB88C13EEA884BB632F53C98397795)
+9:787  0:000  PutNvramPlistToRtVars: nvram.plist not found
+9:787  0:000  found 2 handles with audio
+9:787  0:000  No AudioIoDevice stored
+9:787  0:000  no stored audio parameters
+9:787  0:000  === [ InitTheme ] =========================================
+9:787  0:000  use daylight theme
+9:789  0:002  Using theme 'Catalina' (EFI\CLOVER\themes\Catalina)
+9:789  0:000  OS main and drive as badge
+9:790  0:001    Channels: 1  Sample rate: 44100 Hz  Bits: 16
+9:790  0:000  output to channel 0 with volume 70, len=228736
+9:790  0:000   sound channels=1 bits=16 freq=44100
+9:790  0:000  not found AudioIo to play
+9:790  0:000  free sound
+9:790  0:000  sound play end with status=Not Found
+9:792  0:001  Loading font from ThemeDir: Success
+9:792  0:000  theme inited
+9:792  0:000  Chosen theme Catalina
+9:792  0:000  found boot-args in NVRAM:, size=1
+9:792  0:000  after NVRAM boot-args=-lilubetaall debug=0x100 -v darkwake=8
+9:792  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+9:792  0:000  found AppleSMC protocol
+9:793  0:000  Registered 11 SMC keys
+9:793  0:000  === [ AddCustomEntries ] ==================================
+9:793  0:000  Custom entry 0 skipped because it is disabled.
+9:793  0:000  === [ ScanLoader ] ========================================
+9:793  0:000  - [01]: 'EFI'
+9:794  0:001          AddLoaderEntry for Volume Name=EFI
+9:794  0:000          skipped because entry is hidden
+9:794  0:000  - [03]: 'Preboot', hidden
+9:794  0:000  - [04]: 'mac'
+9:798  0:004          AddLoaderEntry for Volume Name=mac
+9:798  0:000      Not match custom entry 0: Type: not match
+9:799  0:001      hibernated: set as never
+9:803  0:003  - [05]: 'Recovery', hidden
+9:803  0:000  - [06]: 'VM'
+9:803  0:000  === [ AddCustomTool ] =====================================
+9:803  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+9:803  0:000  Checking EFI partition Volume 1 for Clover
+9:803  0:000   Found Clover
+9:804  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+9:805  0:001  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+9:900  0:094  === [ GetEfiBootDeviceFromNvram ] =========================
+9:900  0:000  Default boot entry not found
+9:900  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+9:900  0:000  DefaultIndex=-1 and MainMenu.EntryCount=7
+10:093  0:193  can't bear mouse at all! Status=Unsupported
+10:093  0:000  GUI ready
+14:802  4:708  Found BIOS RSDP at F0140
+14:802  0:000  Printing ACPI tables from RSDP F0140 ...
+14:802  0:000   F0140: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+14:802  0:000    (Xsdt: BFFC1188, Rsdt: BFFC10C4)
+14:802  0:000    BFFC1188: 'XSDT', 'TP-R0I', Rev: 1, Len: 252
+14:802  0:000    BFFC10C4: 'RSDT', 'TP-R0I', Rev: 1, Len: 144
+14:802  0:000    Tables in Xsdt: 27
+14:802  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+14:802  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+14:802  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+14:805  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+14:805  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+14:805  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+14:805  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+14:805  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+14:805  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+14:805  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+14:805  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+14:805  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+14:805  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+14:805  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+14:805  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+14:805  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+14:805  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+14:805  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+14:805  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+14:805  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+14:805  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+14:805  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+14:805  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+14:805  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+14:805  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+14:805  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+14:805  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+14:805  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+14:805  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+14:805  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+14:805  0:000    Tables in Rsdt: 27
+14:805  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+14:805  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+14:805  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+14:807  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+14:807  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+14:807  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+14:807  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+14:807  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+14:807  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+14:807  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+14:807  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+14:807  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+14:807  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+14:807  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+14:807  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+14:807  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+14:807  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+14:807  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+14:807  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+14:807  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+14:807  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+14:807  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+14:807  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+14:807  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+14:807  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+14:807  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+14:807  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+14:807  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+14:807  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+14:807  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+14:807  0:000  Found UEFI Acpi 2.0 RSDP at BFFFE014
+14:807  0:000  Saving ACPI tables from RSDP BFFFE014 to EFI\CLOVER\ACPI\origin ...
+14:807  0:000   BFFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+14:815  0:007    (Xsdt: BFFC1188, Rsdt: BFFC10C4)
+14:815  0:000    BFFC1188: 'XSDT', 'TP-R0I', Rev: 1, Len: 252 -> XSDT.aml
+14:820  0:005    BFFC10C4: 'RSDT', 'TP-R0I', Rev: 1, Len: 144 -> RSDT.aml
+14:826  0:005    Tables in Xsdt: 27
+14:826  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244 -> FACP.aml
+14:831  0:005        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+14:831  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179 -> DSDT.aml
+14:841  0:010        BFF3D000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+14:847  0:005    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972 -> SSDT-0-Tpm2Tabl.aml
+14:853  0:006    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52 -> TPM2.aml
+14:858  0:005    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66 -> UEFI.aml
+14:864  0:005    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464 -> SSDT-1-SaSsdt.aml
+14:870  0:005    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462 -> SSDT-2-PerfTune.aml
+14:876  0:005    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56 -> HPET.aml
+14:881  0:005    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188 -> APIC.aml
+14:887  0:005    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60 -> MCFG.aml
+14:893  0:005    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83 -> ECDT.aml
+14:898  0:005    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540 -> SSDT-3-Rmv_Batt.aml
+14:904  0:005    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805 -> SSDT-4-ProjSsdt.aml
+14:910  0:005    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40 -> BOOT.aml
+14:915  0:005    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74 -> BATB.aml
+14:921  0:005    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374 -> SLIC.aml
+14:926  0:005    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-5-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+14:933  0:006        * BFF2C098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1716  53 53 44 54 B4 06 00 00 02 48 50 6D 52 65 66 00 Internal length = 1716 -> SSDT-x5_0-Cpu0Ist.aml
+14:938  0:005        * BFEE2018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 2A 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x5_1-ApIst.aml
+14:944  0:005        * BFEE3698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 11 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x5_2-Cpu0Cst.aml
+14:950  0:005        * BFEE1018: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 93 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x5_3-ApCst.aml
+14:956  0:005        * BFF2CB18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 7D 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x5_4-Cpu0Hwp.aml
+14:962  0:005        * BFEE1418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 80 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x5_5-ApHwp.aml
+14:967  0:005        * BFEE3018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 85 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x5_6-HwpLvt.aml
+14:973  0:005  
+14:973  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389 -> SSDT-6-CtdpB.aml
+14:979  0:005    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536 -> SSDT-7-UsbCTabl.aml
+14:984  0:005    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40 -> WSMT.aml
+14:990  0:005    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-8-HdaDsp.aml
+14:996  0:005    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221 -> SSDT-9-TbtTypeC.aml
+15:001  0:005    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52 -> DBGP.aml
+15:007  0:005    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84 -> DBG2.aml
+15:012  0:005    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85 -> MSDM.aml
+15:018  0:005    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160 -> ASF!.aml
+15:023  0:005    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68 -> FPDT.aml
+15:029  0:005    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318 -> UEFI.aml
+15:037  0:008    Tables in Rsdt: 27
+15:037  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:037  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:037  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:040  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:040  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:040  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:040  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:040  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:040  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:040  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:040  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:040  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:040  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:040  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:040  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:040  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:040  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:040  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+15:040  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:040  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:040  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:040  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:040  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:040  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:040  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:040  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:040  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:040  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:040  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:040  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+15:040  0:000  Found UEFI Acpi 1.0 RSDP at BFFFE000
+15:040  0:000  Printing ACPI tables from RSDP BFFFE000 ...
+15:040  0:000   BFFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+15:040  0:000    (Rsdt: BFFC1000)
+15:040  0:000    BFFC1000: 'RSDT', 'TP-R0I', Rev: 1, Len: 140
+15:040  0:000    Tables in Rsdt: 26
+15:040  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:040  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:040  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:042  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:042  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:042  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:042  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:042  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:042  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:042  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:042  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:042  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:042  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:042  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:042  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:042  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:042  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:042  0:000    14. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:042  0:000    15. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:042  0:000    16. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:042  0:000    17. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:042  0:000    18. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:042  0:000    19. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:042  0:000    20. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:042  0:000    21. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:042  0:000    22. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:042  0:000    23. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:042  0:000    24. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:042  0:000    25. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+15:671  0:628  Found BIOS RSDP at F0140
+15:671  0:000  Printing ACPI tables from RSDP F0140 ...
+15:671  0:000   F0140: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:671  0:000    (Xsdt: BFFC1188, Rsdt: BFFC10C4)
+15:671  0:000    BFFC1188: 'XSDT', 'TP-R0I', Rev: 1, Len: 252
+15:671  0:000    BFFC10C4: 'RSDT', 'TP-R0I', Rev: 1, Len: 144
+15:671  0:000    Tables in Xsdt: 27
+15:671  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:671  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:671  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:674  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:674  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:674  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:674  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:674  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:674  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:674  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:674  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:674  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:674  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:674  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:674  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:674  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:674  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:674  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+15:674  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:674  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:674  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:674  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:674  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:674  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:674  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:674  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:674  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:674  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:674  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:674  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+15:674  0:000    Tables in Rsdt: 27
+15:674  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:674  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:674  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:676  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:676  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:676  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:676  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:676  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:676  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:676  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:676  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:676  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:676  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:676  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:676  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:676  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:676  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:676  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+15:676  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:676  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:676  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:676  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:676  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:676  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:676  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:676  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:676  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:676  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:676  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:676  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+15:676  0:000  Found UEFI Acpi 2.0 RSDP at BFFFE014
+15:676  0:000  Saving ACPI tables from RSDP BFFFE014 to EFI\CLOVER\ACPI\origin ...
+15:676  0:000   BFFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:676  0:000    (Xsdt: BFFC1188, Rsdt: BFFC10C4)
+15:676  0:000    BFFC1188: 'XSDT', 'TP-R0I', Rev: 1, Len: 252
+15:676  0:000    BFFC10C4: 'RSDT', 'TP-R0I', Rev: 1, Len: 144
+15:676  0:000    Tables in Xsdt: 27
+15:676  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:676  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:676  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:679  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:679  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:679  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:679  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:679  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:679  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:679  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:679  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:679  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:679  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:679  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:679  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:679  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:679  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:679  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+15:679  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:679  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:679  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:679  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:679  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:679  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:679  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:679  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:679  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:679  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:679  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:679  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+15:679  0:000    Tables in Rsdt: 27
+15:679  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:679  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:679  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:681  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:681  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:681  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:681  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:681  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:681  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:681  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:681  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:681  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:681  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:681  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:681  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:681  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:681  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:681  0:000    14. BFFC9000: 'SLIC', 'TP-R0I', Rev: 1, Len: 374
+15:681  0:000    15. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:681  0:000    16. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:681  0:000    17. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:681  0:000    18. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:681  0:000    19. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:681  0:000    20. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:681  0:000    21. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:681  0:000    22. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:681  0:000    23. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:681  0:000    24. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:681  0:000    25. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:681  0:000    26. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+15:681  0:000  Found UEFI Acpi 1.0 RSDP at BFFFE000
+15:681  0:000  Printing ACPI tables from RSDP BFFFE000 ...
+15:681  0:000   BFFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+15:682  0:000    (Rsdt: BFFC1000)
+15:682  0:000    BFFC1000: 'RSDT', 'TP-R0I', Rev: 1, Len: 140
+15:682  0:000    Tables in Rsdt: 26
+15:682  0:000    0. BFFF5000: 'FACP', 'TP-R0I', Rev: 5, Len: 244
+15:682  0:000        (Dsdt: BFFCF000, Facs: BFF3D000, XDsdt: BFFCF000, XFacs: 0)
+15:682  0:000        BFFCF000: 'DSDT', 'SKL', Rev: 2, Len: 135179
+15:684  0:002        BFF3D000: 'FACS', Ver: 2, Len: 64
+15:684  0:000    1. BFFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+15:684  0:000    2. BFFFB000: 'TPM2', 'TP-R0I', Rev: 3, Len: 52
+15:684  0:000    3. BFF53000: 'UEFI', 'TP-R0I', Rev: 1, Len: 66
+15:684  0:000    4. BFFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+15:684  0:000    5. BFFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+15:684  0:000    6. BFFF4000: 'HPET', 'TP-R0I', Rev: 1, Len: 56
+15:684  0:000    7. BFFF3000: 'APIC', 'TP-R0I', Rev: 3, Len: 188
+15:684  0:000    8. BFFF2000: 'MCFG', 'TP-R0I', Rev: 1, Len: 60
+15:684  0:000    9. BFFF1000: 'ECDT', 'TP-R0I', Rev: 1, Len: 83
+15:684  0:000    10. BFFCE000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+15:684  0:000    11. BFFCC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5805
+15:684  0:000    12. BFFCB000: 'BOOT', 'TP-R0I', Rev: 1, Len: 40
+15:684  0:000    13. BFFCA000: 'BATB', 'TP-R0I', Rev: 2, Len: 74
+15:684  0:000    14. BFFC7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+15:684  0:000    15. BFFC6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+15:684  0:000    16. BFFC5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1536
+15:684  0:000    17. BFFC4000: 'WSMT', 'TP-R0I', Rev: 1, Len: 40
+15:684  0:000    18. BFFC3000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+15:684  0:000    19. BFFC2000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1221
+15:684  0:000    20. BFFFD000: 'DBGP', 'TP-R0I', Rev: 1, Len: 52
+15:684  0:000    21. BFFC0000: 'DBG2', 'TP-R0I', Rev: 0, Len: 84
+15:684  0:000    22. BFFBF000: 'MSDM', 'TP-R0I', Rev: 3, Len: 85
+15:684  0:000    23. BFFBE000: 'ASF!', 'TP-R0I', Rev: 32, Len: 160
+15:684  0:000    24. BFFBD000: 'FPDT', 'TP-R0I', Rev: 1, Len: 68
+15:684  0:000    25. BFF3B000: 'UEFI', 'TP-R0I', Rev: 1, Len: 318
+40:397  24:712  exit from MainMenu 1
+40:397  0:000  Boot option Boot0000 not found
+40:397  0:000  === [ StartLoader ] =======================================
+40:397  0:000  Finally: ExternalClock=26MHz BusSpeed=100485kHz CPUFreq=-4294964583MHz PIS: hw.busfrequency=104000000Hz
+40:397  0:000  Loading boot.efi  status=Success
+40:510  0:112  GetOSVersion: 10.14.6 (18G87)
+40:510  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+40:510  0:000  Filtering KextPatches:
+40:510  0:000   - [00]: AppleIntelBDWGraphicsFramebuffer (DVMT for AppleIntelBDWGraphicsFramebuffer (Credits DalianSky) for 10.14.x) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14.x | MatchBuild: All] ==> allowed
+40:510  0:000   - [01]: AppleIntelSKLGraphicsFramebuffer (DVMT for AppleIntelSKLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14.x | MatchBuild: All] ==> allowed
+40:510  0:000   - [02]: AppleIntelKBLGraph﻿icsFramebuffer﻿﻿﻿ (DVMT for AppleIntelKBLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14.x | MatchBuild: All] ==> allowed
+40:510  0:000   - [03]: AppleIntelCFLGraphicsFramebuffer (DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14.x | MatchBuild: All] ==> allowed
+40:510  0:000   - [04]: AppleIntelCFLGraphicsFramebuffer (DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14.x | MatchBuild: All] ==> allowed
+40:510  0:000   - [05]: AppleIntelLpssI2C (Disable AppleIntelLpssI2C (credit by Coolstar)) :: PlistPatch :: [OS: 10.14.6 | MatchOS: All | MatchBuild: All] ==> allowed
+40:510  0:000   - [06]: AppleIntelLpssI2CController (Disable AppleIntelLpssI2CCOntroller (credit by Coolstar)) :: PlistPatch :: [OS: 10.14.6 | MatchOS: All | MatchBuild: All] ==> allowed
+40:510  0:000   - [07]: IOBufferCopyController (disable IOBufferCopyController (Credit by DalianSky)) :: PlistPatch :: [OS: 10.14.6 | MatchOS: All | MatchBuild: All] ==> allowed
+40:510  0:000   - [08]: com.apple.driver.usb.AppleUSBXHCI (10.13.x USB Port Limit Patch) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.13.4,10.13.5 | MatchBuild: All] ==> not allowed
+40:510  0:000   - [09]: com.apple.driver.usb.AppleUSBXHCI (USB 10.13.6 by PMHeart) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.13.6 | MatchBuild: All] ==> not allowed
+40:510  0:000   - [10]: com.apple.driver.usb.AppleUSBXHCI (disable USB Port Limit Patch (PMheart) for 10.14 beta2) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14 | MatchBuild: All] ==> not allowed
+40:510  0:000   - [11]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #1 10.14.x modify by DalianSky(credit ydeng)) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14.x | MatchBuild: All] ==> allowed
+40:510  0:000   - [12]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14.x | MatchBuild: All] ==> allowed
+40:510  0:000   - [13]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #3 10.14.x modify by DalianSky(credits PMheart)) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14,10.14.1,10.14.2,10.14.3 | MatchBuild: All] ==> not allowed
+40:510  0:000   - [14]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #4 10.14.x modify by DalianSky(credits PMheart)) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14.x | MatchBuild: All] ==> allowed
+40:510  0:000   - [15]: com.apple.driver.AppleRTC (AppleRTC for 10.14.4) :: BinPatch :: [OS: 10.14.6 | MatchOS: 10.14.x | MatchBuild: All] ==> allowed
+40:510  0:000  Filtering KernelPatches:
+40:510  0:000   - [00]: Disable panic kext logging on 10.13 Debug kernel :: [OS: 10.14.6 | MatchOS: 10.13 | MatchBuild: no] ==> not allowed by OS
+40:510  0:000   - [01]: Disable panic kext logging on Release kernel :: [OS: 10.14.6 | MatchOS: 10.13 | MatchBuild: no] ==> not allowed by OS
+40:510  0:000   - [02]: Disable panic kext logging on Release kernel :: [OS: 10.14.6 | MatchOS: 10.14,10.14.1,10.14.2,10.14.3 | MatchBuild: no] ==> not allowed by OS
+40:510  0:000   - [03]: Disable panic kext logging on Release kernel :: [OS: 10.14.6 | MatchOS: 10.14.4,10.14.5,10.14.6 | MatchBuild: no] ==> allowed by OS
+40:510  0:000   - [04]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: [OS: 10.14.6 | MatchOS: All | MatchBuild: no] ==> allowed by OS
+40:510  0:000  Will not patch boot.efi
+40:510  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+40:605  0:094  === [ PatchSmbios ] =======================================
+40:605  0:000  insert table 9 for dev 1F:6
+40:605  0:000  insert table 9 for dev 0:0
+40:606  0:000  Trusting SMBIOS...
+40:606  0:000  Channels: 1
+40:606  0:000  Interleave: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+40:606  0:000   partNum=M471A1K43CB1-CRC    
+40:606  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+40:606  0:000  BANK 0 DIMM0 2400MHz 8192MB
+40:606  0:000  SMBIOS Type 17 Index = 1 => 1 1:
+40:606  0:000  BANK 0 DIMM1 EMPTY
+40:606  0:000  mTotalSystemMemory = 8192
+40:606  0:000  NumberOfMemoryDevices = 2
+40:606  0:000  Table 131 is present, CPUType=10
+40:606  0:000  Change to: 605
+40:606  0:000  Table 133 is present, PlatformFeature=4F484B01
+40:606  0:000  Change to: 1A
+40:606  0:000  === [ PatchACPI ] =========================================
+40:606  0:000  Xsdt reallocation done
+40:606  0:000  old FADT length=F4
+40:606  0:000   SignatureFixup: 0x2795 -> 0x0
+40:608  0:001  Apply DsdtFixMask=0x00000000
+40:608  0:000     drop _DSM mask=0xFFFF
+40:608  0:000  === [ FixBiosDsdt ] =======================================
+40:608  0:000  Patching DSDT:
+40:608  0:000   - [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:608  0:000   - [change _OSI to XOSI]: disabled
+40:608  0:000   - [change _DSM to XDSM]: disabled
+40:608  0:000   - [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:609  0:000   - [change H_EC to EC]: pattern 485F4543, patched at: [ (262) (5B8E) (17) ]
+40:609  0:000   - [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:609  0:000   - [change HDAS to HDEF]: pattern 48444153, patched at: [ (278) (12) (12) (4221) (1B03) (85) (E) (34) (10) (36) (10) (4A) (78) (C6) (11) ]
+40:609  0:000   - [change HECI to IMEI]: pattern 48454349, patched at: [ (106D0) ]
+40:609  0:000   - [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:610  0:000   - [change GFX0 to IGPU]: pattern 47465830, patched at: [ (51) (E) (12) (12) (12) (5E) (12) (12) (2EF) (19E) (39) (12) (50) (42) (40) (2CC0) (DFE5) (24A7) (34) (29A) (28) (239) (26) (D5C) (1507) (28) (1D60) (2D0) (F) (5705) (AEB) (136) (778) (64) (2D) (1D) ]
+40:610  0:000   - [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:610  0:000   - [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:610  0:000   - [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:611  0:000    0 replacements
+40:611  0:000  PreCleanup XSDT: count=27, length=252
+40:611  0:000  PreCleanup XSDT, corrected XSDT: count=27, length=252
+40:611  0:000  === [ ACPIDropTables ] ====================================
+40:611  0:000  Patching SSDT Tpm2Tabl Length=972
+40:611  0:000  0. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:611  0:000  1. [change _OSI to XOSI]: disabled
+40:611  0:000  2. [change _DSM to XDSM]: disabled
+40:611  0:000  3. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:611  0:000  4. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+40:611  0:000  5. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:611  0:000  6. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+40:611  0:000  7. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+40:611  0:000  8. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:611  0:000  9. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+40:611  0:000  10. [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:611  0:000  11. [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:611  0:000  12. [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:611  0:000    0 replacements
+40:611  0:000  Found OperationRegion(TPMR, SystemMemory, FED40000, ...)
+40:611  0:000  Found OperationRegion(TNVS, SystemMemory, BFF55000, ...)
+40:611  0:000  Patching SSDT SaSsdt  Length=12464
+40:611  0:000  0. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:611  0:000  1. [change _OSI to XOSI]: disabled
+40:611  0:000  2. [change _DSM to XDSM]: disabled
+40:611  0:000  3. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:611  0:000  4. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+40:611  0:000  5. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:611  0:000  6. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+40:611  0:000  7. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+40:611  0:000  8. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:611  0:000  9. [change GFX0 to IGPU]: pattern 47465830, patched at: [ (2D) (E) (94) (278) (1CC6) (AEE) (1D) (53F) ]
+40:611  0:000  10. [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:612  0:000  11. [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:612  0:000  12. [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:612  0:000    0 replacements
+40:612  0:000  Found OperationRegion(SANV, SystemMemory, BFF5F418, ...)
+40:612  0:000  Patching SSDT PerfTune Length=1462
+40:612  0:000  0. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:612  0:000  1. [change _OSI to XOSI]: disabled
+40:612  0:000  2. [change _DSM to XDSM]: disabled
+40:612  0:000  3. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:612  0:000  4. [change H_EC to EC]: pattern 485F4543, patched at: [ (24) (16) (28) (16) (4E3) (14) ]
+40:612  0:000  5. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:612  0:000  6. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+40:612  0:000  7. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+40:612  0:000  8. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:612  0:000  9. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+40:612  0:000  10. [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:612  0:000  11. [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:612  0:000  12. [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:612  0:000    0 replacements
+40:612  0:000  Patching SSDT Rmv_Batt Length=540
+40:612  0:000  0. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:612  0:000  1. [change _OSI to XOSI]: disabled
+40:612  0:000  2. [change _DSM to XDSM]: disabled
+40:612  0:000  3. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:612  0:000  4. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+40:612  0:000  5. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:612  0:000  6. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+40:612  0:000  7. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+40:612  0:000  8. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:612  0:000  9. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+40:612  0:000  10. [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:612  0:000  11. [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:612  0:000  12. [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:612  0:000    0 replacements
+40:612  0:000  Patching SSDT ProjSsdt Length=5805
+40:612  0:000  0. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:612  0:000  1. [change _OSI to XOSI]: disabled
+40:612  0:000  2. [change _DSM to XDSM]: disabled
+40:612  0:000  3. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:612  0:000  4. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+40:612  0:000  5. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:612  0:000  6. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+40:612  0:000  7. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+40:612  0:000  8. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:612  0:000  9. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+40:612  0:000  10. [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:612  0:000  11. [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:612  0:000  12. [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:612  0:000    0 replacements
+40:612  0:000  Patching SSDT CpuSsdt Length=6062
+40:612  0:000  0. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:612  0:000  1. [change _OSI to XOSI]: disabled
+40:612  0:000  2. [change _DSM to XDSM]: disabled
+40:612  0:000  3. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:612  0:000  4. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+40:612  0:000  5. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:612  0:000  6. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+40:612  0:000  7. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+40:612  0:000  8. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:612  0:000  9. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+40:612  0:000  10. [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:612  0:000  11. [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:612  0:000  12. [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:612  0:000    0 replacements
+40:612  0:000  Found OperationRegion(PNVS, SystemMemory, B55A2000, ...)
+40:612  0:000  Patching SSDT CtdpB Length=1389
+40:612  0:000  0. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:612  0:000  1. [change _OSI to XOSI]: disabled
+40:612  0:000  2. [change _DSM to XDSM]: disabled
+40:612  0:000  3. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:612  0:000  4. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+40:612  0:000  5. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:612  0:000  6. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+40:612  0:000  7. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+40:612  0:000  8. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:612  0:000  9. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+40:612  0:000  10. [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:612  0:000  11. [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:612  0:000  12. [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:612  0:000    0 replacements
+40:612  0:000  Found OperationRegion(MBAR, SystemMemory, FED15000, ...)
+40:612  0:000  Patching SSDT UsbCTabl Length=1536
+40:612  0:000  0. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:612  0:000  1. [change _OSI to XOSI]: disabled
+40:612  0:000  2. [change _DSM to XDSM]: disabled
+40:612  0:000  3. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:612  0:000  4. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+40:612  0:000  5. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:612  0:000  6. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+40:612  0:000  7. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+40:612  0:000  8. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:612  0:000  9. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+40:612  0:000  10. [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:612  0:000  11. [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:612  0:000  12. [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:612  0:000    0 replacements
+40:612  0:000  Patching SSDT HdaDsp Length=321
+40:612  0:000  0. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:612  0:000  1. [change _OSI to XOSI]: disabled
+40:612  0:000  2. [change _DSM to XDSM]: disabled
+40:612  0:000  3. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:612  0:000  4. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+40:612  0:000  5. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:612  0:000  6. [change HDAS to HDEF]: pattern 48444153, patched at: [ (20) (48) ]
+40:612  0:000  7. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+40:612  0:000  8. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:612  0:000  9. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+40:612  0:000  10. [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:612  0:000  11. [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:612  0:000  12. [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:612  0:000    0 replacements
+40:612  0:000  Patching SSDT TbtTypeC Length=1221
+40:612  0:000  0. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: disabled
+40:612  0:000  1. [change _OSI to XOSI]: disabled
+40:612  0:000  2. [change _DSM to XDSM]: disabled
+40:612  0:000  3. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+40:612  0:000  4. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+40:612  0:000  5. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+40:612  0:000  6. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+40:612  0:000  7. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+40:612  0:000  8. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+40:612  0:000  9. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+40:612  0:000  10. [change PCI0.VID to IGPU #1 (Thinkpad)]: pattern 50434930, bin not found / already patched!
+40:612  0:000  11. [change PCI0.VID to IGPU #2 (Thinkpad)]: pattern 5649445F, bin not found / already patched!
+40:612  0:000  12. [Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, bin not found / already patched!
+40:612  0:000    0 replacements
+40:612  0:000  CPUBase=0 and ApicCPUBase=1 ApicCPUNum=8
+40:612  0:000  Maximum control=0x1B
+40:612  0:000  Turbo control=0x1F
+40:612  0:000  P-States: min 0x4, max 0x1F
+40:612  0:000  SSDT with plugin-type without P-States is generated
+40:612  0:000  Cleanup XSDT: count=28, length=260
+40:612  0:000  corrected XSDT count=28, length=260
+40:612  0:000  === [ RestSetup macOS ] ===================================
+40:612  0:000  EdidDiscovered size=128
+40:612  0:000  --- Discovered EDID Table size:128
+40:612  0:000  000  |  00  FF  FF  FF  FF  FF  FF  00  06  AF
+40:612  0:000  010  |  6C  10  00  00  00  00  26  16  01  04
+40:612  0:000  020  |  95  1C  10  78  02  86  75  97  52  4B
+40:612  0:000  030  |  89  24  2A  50  54  00  00  00  01  01
+40:612  0:000  040  |  01  01  01  01  01  01  01  01  01  01
+40:612  0:000  050  |  01  01  01  01  88  1D  56  E2  50  00
+40:612  0:000  060  |  16  30  26  16  36  00  14  9B  10  00
+40:612  0:000  070  |  00  18  00  00  00  0F  00  00  00  00
+40:612  0:000  080  |  00  00  00  00  00  00  00  00  00  20
+40:612  0:000  090  |  00  00  00  FE  00  41  55  4F  0A  20
+40:612  0:000  100  |  20  20  20  20  20  20  20  20  00  00
+40:612  0:000  110  |  00  FE  00  42  31  32  35  58  54  4E
+40:612  0:000  120  |  30  31  2E  30  20  0A  00  EC
+40:612  0:000  add device: PciRoot(0x0)/Pci(0x2,0x0)
+40:612  0:000     Add key=framebuffer-unifiedmem valuelen=4
+40:612  0:000     Add key=framebuffer-stolenmem valuelen=4
+40:612  0:000     Add key=framebuffer-portcount valuelen=4
+40:612  0:000     Add key=framebuffer-pipecount valuelen=4
+40:612  0:000     Add key=framebuffer-patch-enable valuelen=4
+40:612  0:000     Add key=framebuffer-memorycount valuelen=4
+40:612  0:000     Add key=framebuffer-fbmem valuelen=4
+40:612  0:000     Add key=framebuffer-con3-flags valuelen=4
+40:612  0:000     Add key=framebuffer-con3-enable valuelen=4
+40:612  0:000     Add key=framebuffer-con2-type valuelen=4
+40:612  0:000     Add key=framebuffer-con2-pipe valuelen=4
+40:612  0:000     Add key=framebuffer-con2-index valuelen=4
+40:612  0:000     Add key=framebuffer-con2-flags valuelen=4
+40:612  0:000     Add key=framebuffer-con2-enable valuelen=4
+40:612  0:000     Add key=framebuffer-con2-busid valuelen=4
+40:612  0:000     Add key=framebuffer-con1-type valuelen=4
+40:612  0:000     Add key=framebuffer-con1-enable valuelen=4
+40:612  0:000     Add key=enable-hdmi20 valuelen=4
+40:612  0:000     Add key=disable-external-gpu valuelen=4
+40:612  0:000     Add key=device-id valuelen=4
+40:612  0:000     Add key=AAPL,ig-platform-id valuelen=4
+40:612  0:000  Intel GFX injection not set
+40:613  0:000   RCBA disabled; cannot use it
+40:613  0:000   setting specified layout-id=29 (0x1D)
+40:613  0:000  stringlength = 3470
+40:613  0:000  CurrentMode: Width=1366 Height=768
+40:613  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: B8F8DF98
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: B8F8DF98
+40:614  0:001  Use origin smbios table type 1 guid.
+40:617  0:003    Force kext: System\Library\Extensions\IONetworkingFamily.kext
+40:622  0:004      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\nvenet.kext
+40:625  0:002      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleEthernetAquantiaAqtion.kext
+40:628  0:003      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleBCM5701Ethernet.kext
+40:632  0:003      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleIntelI210Ethernet.kext
+40:634  0:002      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\Intel82574L.kext
+40:637  0:002      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\IOEthernetAVBController.kext
+40:639  0:001      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleYukon2.kext
+40:646  0:007      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleEthernetAquantiaAqtionFirmware.kext
+40:649  0:003      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleIntel8254XEthernet.kext
+40:652  0:002      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleVmxnet3Ethernet.kext
+40:654  0:002      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\mDNSOffloadUserClient.kext
+40:656  0:001  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+40:656  0:000  Extra kext: EFI\CLOVER\kexts\Other\FakePCIID.kext (v.1.3.15)
+40:658  0:001  Extra kext: EFI\CLOVER\kexts\Other\FakePCIID_Intel_HD_Graphics.kext (v.1.3.11)
+40:661  0:002  Extra kext: EFI\CLOVER\kexts\Other\AppleIntelKBLGraphicsFramebufferInjector_3e9x.kext (v.0.5.0)
+40:662  0:001  Extra kext: EFI\CLOVER\kexts\Other\CPUFriendDataProvider.kext (v.1.0.0)
+40:663  0:001  Extra kext: EFI\CLOVER\kexts\Other\HibernationFixup.kext (v.1.2.4)
+40:665  0:001  Extra kext: EFI\CLOVER\kexts\Other\Lilu_v1.3.8.kext (v.1.3.8)
+40:668  0:002  Extra kext: EFI\CLOVER\kexts\Other\HoRNDIS.kext (v.6)
+40:670  0:002  Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller_v1.9.2.kext (v.1.9.2)
+40:672  0:002    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller_v1.9.2.kext\Contents\PlugIns\VoodooPS2Mouse.kext (v.1.9.2)
+40:674  0:002    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller_v1.9.2.kext\Contents\PlugIns\VoodooPS2Keyboard.kext (v.1.9.2)
+40:678  0:003    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller_v1.9.2.kext\Contents\PlugIns\VoodooPS2Trackpad.kext (v.1.9.2)
+40:682  0:003  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_v1800.kext (v.1800)
+40:685  0:003  Extra kext: EFI\CLOVER\kexts\Other\USBInjectAll_v0.7.1.kext (v.0.7.1)
+40:761  0:075  Extra kext: EFI\CLOVER\kexts\Other\GenericUSBXHCI.kext (v.1.2.11)
+40:764  0:002  Extra kext: EFI\CLOVER\kexts\Other\IntelMausiEthernet.kext (v.2.5.0d0)
+40:766  0:002  Extra kext: EFI\CLOVER\kexts\Other\CPUFriend.kext (v.1.1.9)
+40:769  0:002  Extra kext: EFI\CLOVER\kexts\Other\AppleALC.kext (v.1.4.1)
+40:881  0:112  Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen_v1.3.1.kext (v.1.3.1)
+40:897  0:015  Extra kext: EFI\CLOVER\kexts\Other\ACPIBatteryManager.kext (v.1.90.1)
+40:906  0:009  SetStartupDiskVolume:
+40:906  0:000    * Volume: 'mac'
+40:906  0:000    * LoaderPath: '<null string>'
+40:906  0:000    * DevPath: mac
+40:906  0:000    * GUID = A00B7FFD-109D-421F-9125-B241F2C53215
+40:906  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>A00B7FFD-109D-421F-9125-B241F2C53215</string></dict></dict></dict></array>
+40:906  0:000  Custom boot screen not used because entry has unset use graphics
+40:907  0:000  Closing log
